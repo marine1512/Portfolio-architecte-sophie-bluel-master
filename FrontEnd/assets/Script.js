@@ -1,9 +1,7 @@
-fetch('http://localhost:5678/api/users/login')
+fetch('http://localhost:5678/api-docs/')
 .then(res => console.log(res))
 
-
-let photo = document.getElementsByClassName('photo');
-photo = document.querySelector.src = "assets/images" + ".png"
-
-fetch('http://localhost:5678/api/works/1')
+fetch('http://localhost:5678/api-docs/users/login')
 .then(res => console.log(res))
+
+    

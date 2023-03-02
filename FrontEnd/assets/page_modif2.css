@@ -109,8 +109,8 @@ body {
     background-color: #FFFFFF;
     width: 752px;
     height: 731px;
-    position: absolute;
-    top: 58%;
+    position: fixed;
+    top: 44%;
     left: 31.7%;
     border-radius: 10px;
 	z-index: 1;
