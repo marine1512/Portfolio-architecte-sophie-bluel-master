@@ -110,9 +110,10 @@ body {
     width: 752px;
     height: 731px;
     position: absolute;
-    top: 29%;
-    left: 43.7%;
+    top: 58%;
+    left: 31.7%;
     border-radius: 10px;
+	z-index: 1;
 }
 
 h3
@@ -140,10 +141,30 @@ h3
 	border-radius: 60px ;
 }
 
-.Galerie_photo p 
+.Galerie_photo h4 
 {
     color: red;
     text-align: center;
+}
+
+.Galerie_photo .photo
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 29rem;
+    margin-left: 10rem;
+}
+
+.photo img{
+	height:111px; 
+	width:83px;
+	margin-right: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.photo p
+{
+	display: flex;
 }
 
 
@@ -212,6 +233,7 @@ li:hover {
 	display: block;
 	margin: auto;
 	width: 80%;
+	filter:brightness(60%)
 }
 
 #introduction article {
@@ -238,6 +260,7 @@ li:hover {
 
 .gallery img {
 	width: 100%;
+	filter:brightness(60%)
 
 }
 #contact {
@@ -256,6 +279,8 @@ margin: auto;
 	margin-top:30px;
 	display: flex;
 	flex-direction: column;
+	
+
 }
 
 #contact input {
@@ -263,6 +288,7 @@ margin: auto;
 	font-size: 1.2em;
 	border: none;
 	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
+	filter:brightness(60%)
 }
 #contact label {
 	margin: 2em 0 1em 0;
@@ -270,6 +296,7 @@ margin: auto;
 #contact textarea {
 	border: none;
 	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
+	filter:brightness(60%)
 }
 
 input[type="submit"]{
@@ -281,6 +308,7 @@ input[type="submit"]{
 	width: 180px;
 	text-align: center;
 	border-radius: 60px ;
+	filter:brightness(60%)
 }
 
 footer nav ul {
