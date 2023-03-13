@@ -69,22 +69,14 @@ nav li:hover
     text-align: center;
     font-size: 14px;
 }
-.objet
-{
-    margin-left: -6.5rem;
-}
 
-.objet2
-{
-    margin-left: -3.5rem;
-}
-
-.input
+form
 {
     margin-bottom: 2rem;
 }
 
-.button 
+
+.button-login 
 {
     margin-top: 2rem;
     color: #FFFF;
@@ -96,6 +88,7 @@ nav li:hover
     margin: 1rem auto;
     margin-bottom: 8px;
     border-radius: 60px;
+    cursor: pointer;
 }
 
 footer nav ul {

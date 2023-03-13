@@ -1,0 +1,23 @@
+/* Login Event Listener */
+document.querySelector('.button-login').addEventListener('click', function() {
+  console.log('Login ok');
+//   const email = document.getElementsByClassName('input').value;
+//   const password = document.getElementsByClassName('input2').value;
+//   console.log(email, password)
+
+//    fetch('http://localhost:5678/api/users/login',{
+      
+//       headers: {
+//         'Accept': 'application/json',
+//         'Content-Type': 'application/json',
+//         'Authorization': 'Bearer {token}'
+//       },
+
+//       method: "POST",
+//       body: JSON.stringify({email: email, password: password})
+//   }).then( res => {
+//       console.log(res)
+
+
+//   })
+});

@@ -26,23 +26,17 @@
     <main>
         <div class="login">
             <h2>Log In</h2>
-            <form method="get" action="">
-                <div class="objet">
-                <label for="E-mail">E-mail</label></div>
-                <div class="input">
-                <input type="text"></div>
-            </form>
-            <form method="get" action="">
-                <div class="objet2">
-                <label for="Mot de passe">Mot de passe</label></div>
-                <div class="input2">
-                <input type="text"></div>
-            </form>
-            <p class="button">se connecter</p>
+                <form method="post" action="#">
+                    <p>E-mail</p>
+                    <input class="input" type="email" id="emailLogin">
+                    <p>Mot de passe</p>
+                    <input class="input2" type="password" id="passwordLogin">
+                </form>
+            <p class="button-login">se connecter</p>
             <p>Mot de passe oublié</p>
         </div>
     </main>
-    <script src="assets/Script.js"></script>
+    <script src="assets/login.js"></script>
     <footer>
         <nav>
             <ul>

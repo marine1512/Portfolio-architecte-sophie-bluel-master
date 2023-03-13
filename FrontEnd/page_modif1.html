@@ -12,17 +12,39 @@
 	<link rel="stylesheet" href="./assets/page_modif1.css">
 </head>
 <body>	
-	<div class="mode_edition">
-		<i class="fa-regular fa-pen-to-square"></i><p>Mode édition</p> <button>publier les changements</button>
-	</div>
+		<div class="bar_edition">
+			<i class="fa-regular fa-pen-to-square"></i><p>Mode édition</p> <button>publier les changements</button>
+		</div>
+		<a href="#modal1" class="js-modal modifier2"><i class="fa-regular fa-pen-to-square"></i>modifier</a>
+		<aside id ="modal1" class="Galerie_photo" aria-hidden="false" aria-modal:"false" role="dialog" style="display: none;">
+			<div class="modal-wrapper js-modal stop">
+				<h5 class="js-modal-close">X</h5>
+				<h3>Galerie photo</h3>
+				<div class="photo js-modal-stop">
+					<img src="assets/images/abajour-tahina.png">
+					<img src="assets/images/appartement-paris-v.png">
+					<img src="assets/images/restaurant-sushisen-londres.png">
+					<img src="assets/images/la-balisiere.png">
+					<img src="assets/images/structures-thermopolis.png">
+					<img src="assets/images/appartement-paris-x.png">
+					<img src="assets/images/le-coteau-cassis.png">
+					<img src="assets/images/villa-ferneze.png">
+					<img src="assets/images/appartement-paris-xviii.png">
+					<img src="assets/images/bar-lullaby-paris.png">
+					<img src="assets/images/hotel-first-arte-new-delhi.png">
+				</div>	
+				<button>Ajouter une photo</button>
+				<h4>Supprimer la galerie</h4>
+			</div>
+		</aside>
+	<script src="Assets/Modification.js"></script>
 <header>
-
 	<h1>Sophie Bluel <span>ARCHITECTE D'INTERIEUR</span></h1>
 	<nav>
 		<ul>
 			<li>projets</li>
 			<li>contact</li>
-			<li>logout</li>
+			<li><a href="index.html">logout</a></li>
 			<li><img src="./assets/icons/instagram.png" alt="Instagram"></li>
 		</ul>
 	</nav>
@@ -43,9 +65,6 @@
 		</article>
 	</section>
 	<section id="portfolio">
-		<div class="modifier2">
-			<i class="fa-regular fa-pen-to-square"></i><p>modifier</p> 
-		</div>
 		<h2>Mes Projets</h2>
 		<div class="gallery">
 			<figure>
